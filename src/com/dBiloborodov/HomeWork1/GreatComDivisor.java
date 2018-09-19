@@ -10,9 +10,9 @@ public class GreatComDivisor {
 	public static void main(String[] args) {
 		
 		Scanner in = new Scanner(System.in);
-		System.out.print("Enter number one: ");
+		System.out.print("Enter first number: ");
 		int a = in.nextInt();
-		System.out.print("Enter number two: ");
+		System.out.print("Enter second number: ");
 		int b = in.nextInt();
 		greatComDiv(a, b);
 		in.close();
