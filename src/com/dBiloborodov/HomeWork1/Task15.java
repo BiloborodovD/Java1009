@@ -1,9 +1,10 @@
 package com.dBiloborodov.HomeWork1;
 /*
- *Даны катеты прямоугольного треугольника. Найдите площадь, периметр и гипотенузу треугольника.
- */
+Р”Р°РЅС‹ РєР°С‚РµС‚С‹ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРѕРіРѕ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°. РќР°Р№РґРёС‚Рµ РїР»РѕС‰Р°РґСЊ, РїРµСЂРёРјРµС‚СЂ Рё РіРёРїРѕС‚РµРЅСѓР·Сѓ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°.
+*/
 import java.util.Scanner;
-import java.lang.Math;
+import static java.lang.Math.sqrt;
+import static java.lang.Math.pow;
 
 public class Task15 {
 
@@ -14,7 +15,7 @@ public class Task15 {
 		int catA = in.nextInt();
 		System.out.print("Cathetus B: ");
 		int catB = in.nextInt();
-		double hyp = Math.sqrt(catA*catA + catB*catB);
+		double hyp = sqrt(pow(catA,2) + pow(catB,2));
 		System.out.println("Hypotenuse: " + hyp);
 		calcArea(catA,catB);
 		calcPerim(catA,catB,hyp);

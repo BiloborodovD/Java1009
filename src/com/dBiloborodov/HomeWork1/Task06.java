@@ -1,7 +1,10 @@
 package com.dBiloborodov.HomeWork1;
+
 /*
- *Напишите метод, который будет увеличивать заданный элемент массива на 10%.
- */
+РќР°РїРёС€РёС‚Рµ РјРµС‚РѕРґ, РєРѕС‚РѕСЂС‹Р№ Р±СѓРґРµС‚ СѓРІРµР»РёС‡РёРІР°С‚СЊ Р·Р°РґР°РЅРЅС‹Р№ СЌР»РµРјРµРЅС‚ РјР°СЃСЃРёРІР° РЅР° 10%.
+*/
+
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Task06 {
@@ -25,10 +28,9 @@ public class Task06 {
 		incrEl(num);
 		
 		//printing the New Array
-		for (int y = 0; y < num.length; y++) {
-		System.out.print(num[y] + ", ");
+		System.out.print(Arrays.toString(num));
 		in.close();
-		}
+		
 	}
 	//method which increase selected element on 10% 
 	public static void incrEl(double[] num) {
