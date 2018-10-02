@@ -74,5 +74,4 @@ public class Task07 {
 		}
 		return minPos;
 	}
-
 }

@@ -27,27 +27,21 @@ public class Task03 {
 		Point point2 = new Point(x2, y2);
 				
 		System.out.println("Distance between two points: " + Point2D.distance(x1,y1,x2,y2));
+		
 		System.out.println("Distance from point1 to point 2: " + point2.distance(point1));
+		
 		System.out.println("Distance from point1 to origin point: " + Point2D.distance(x1,y1,0,0));
+		
 		System.out.print("Enter the value of X shift: ");
 		int dx = in.nextInt();
 		point1.translate(dx, 0);
+		
 		System.out.println("Shift along X axis. New coordinates is " + point1.getX() + "," + point1.getY());
 		int dy = dx;
 		point1.translate(0, dy);
-		System.out.println("Shift along Y axis. New coordinates is " + point1.getLocation());
+		
+		System.out.println("Shift along Y axis. New coordinates is " + point1.getX() + "," + point1.getY());
 		
 		in.close();
-			
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	}
-	
+	}	
 }
