@@ -17,15 +17,14 @@ public class Task1 {
     static StringBuffer[] array = new StringBuffer[10];
     
 	public static void main(String[] args) {
-	Scanner in = new Scanner(System.in);
-	System.out.print("Enter a number of characters in strings: ");
-	int lenght = in.nextInt();
-	System.out.println("Strings before change: ");
-	PrintArray(ArrayGenerator(lenght));
-	System.out.println("Strings after change: ");
-	PrintArray(RandomChange(array));
-	in.close();	
-	
+		Scanner in = new Scanner(System.in);
+		System.out.print("Enter a number of characters in strings: ");
+		int lenght = in.nextInt();
+		System.out.println("Strings before change: ");
+		PrintArray(ArrayGenerator(lenght));
+		System.out.println("Strings after change: ");
+		PrintArray(RandomChange(array));
+		in.close();	
 	}
 		
 	/**
