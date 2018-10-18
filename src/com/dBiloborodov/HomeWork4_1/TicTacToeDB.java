@@ -181,7 +181,7 @@ class Act implements ActionListener{
 	    JOptionPane.showMessageDialog(null, letter +" " + "Wins!");
 	    System.exit(0);
 	} else if (turnCounter == 9) {
-	    JOptionPane.showMessageDialog(null, "It's a tie!");
+	    JOptionPane.showMessageDialog(null, "It's a draw!");
 	    System.exit(0);
 	}
     }
